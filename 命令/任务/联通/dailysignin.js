@@ -30,7 +30,7 @@ var dailysignin = {
     }
   },
   query: async (axios, options) => {
-    const useragent = `okhttp/4.4.0`
+    const useragent = `unicom`
     let { data } = await axios.request({
       baseURL: 'https://act.10010.com/',
       headers: {
